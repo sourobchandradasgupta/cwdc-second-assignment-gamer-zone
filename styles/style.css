@@ -1,5 +1,84 @@
-font-family: 'EB Garamond', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+/* Nav Start */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 180px;
+}
+
+.nav-logo img {
+
+    width: 60px;
+    height: 30px;
+}
+
+.nav-logo,
+.nav-items {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #3C354F;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.nav-title {
+
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #0B0223;
+}
+
+.gamer-span {
+    color: #FF42A5;
+}
+
+.nav-items {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.follow-us {
+    background-color: #0B02231A;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+
+/* Nav End */
+
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .nav-items {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .follow-us{
+        padding: 10px;
+
+    }
+    
+
+}
 
 
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .nav-container,
+    .nav-items {
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-logo{
+        justify-content: center;
+    }
+}
