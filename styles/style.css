@@ -212,9 +212,21 @@
 
 /* Play Instant Section Start */
 
-.instant{
+
+
+
+.instant {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+
+.instant-play {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
 }
 
 .instant-play-and-downloads {
@@ -222,13 +234,13 @@
 }
 
 
-.image-container-1{
+.image-container-1 {
     height: 50%;
     width: 50%;
     justify-content: space-between;
 }
 
-.image-container-2{
+.image-container-2 {
     height: 50%;
     width: 50%;
 }
@@ -266,13 +278,7 @@
 }
 
 
-.instant-play {
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: center;
-}
+
 
 
 
@@ -290,7 +296,7 @@
 
     justify-content: center;
 
-    padding: 80px 180px;
+    padding: 80px 100px;
     gap: 20px;
     margin-top: 50px;
 }
@@ -375,6 +381,23 @@
 /* Footer End */
 
 
+/* Hover Section */
+
+#for-hover:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+
+.icon-and-name:hover{
+    border: 3px solid red;
+    color: red;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -453,6 +476,46 @@
     /* Online Game End */
 
 
+
+    /* Instant Play Start */
+    .instant-play {
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .instant {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .instant-play-text, .instant-play-text-2 {
+        text-align: center;
+    }
+
+    .image-container-2, .image-container-2 {
+        height: 50px;
+        width: 30px;
+    }
+
+    .second-image-2, .second-image-1 {
+        height: 30%;
+        width: 30%;
+        margin-top: -300px;
+        margin-left: 400px;
+    }
+
+    .image-container-2, .image-container-1{
+        display: none;
+    }
+
+    .instant-play-and-downloads {
+        padding: 0 10px;
+    }
+
+    /* Instant Play End */
 
     /* Different Games Section Start*/
 
@@ -589,6 +652,48 @@
     }
 
     /* Online Game End */
+
+
+
+    /* Instant Play Start */
+    .instant-play {
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .instant {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .instant-play-text, .instant-play-text-2 {
+        text-align: center;
+    }
+
+    .image-container-2, .image-container-2 {
+        height: 50px;
+        width: 30px;
+    }
+
+    .second-image-2, .second-image-1 {
+        height: 30%;
+        width: 30%;
+        margin-top: -300px;
+        margin-left: 400px;
+    }
+
+    .image-container-2, .image-container-1{
+        display: none;
+    }
+
+    .instant-play-and-downloads {
+        padding: 0 10px;
+    }
+
+    /* Instant Play End */
 
 
 
