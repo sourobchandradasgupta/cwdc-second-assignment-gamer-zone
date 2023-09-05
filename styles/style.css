@@ -211,13 +211,57 @@
 
 /* Play Instant Section Start */
 
+.instant-play-and-downloads{
+    padding: 0 180px;
+}
+
+.instant-play-text{
+    text-align: end;
+}
+
+.instant-play-title{
+    font-size: 2 rem;
+}
+
+.instant-play-span{
+    font-size: 2 rem;
+    background: linear-gradient(180deg, #F948B2 0%, #612fd5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.instant-play{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
 
 
 
 /* Play Instant Section End */
 
 
+/* Different Section Start*/
 
+.games-icon{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content:center;
+    padding: 0 180px;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.icon-and-name{
+    display: flex;
+    gap: 16px;
+}
+
+/* Different Section End*/
 
 
 
