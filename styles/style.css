@@ -265,6 +265,12 @@
 .icon-and-name {
     display: flex;
     gap: 16px;
+
+}
+
+.icon-and-name>p {
+    font-size: 1 rem;
+    font-family: sans-serif;
 }
 
 .icon-and-name>img {
@@ -273,6 +279,67 @@
 }
 
 /* Different Games Section End*/
+
+
+/* Footer start */
+
+.footer {
+    background-color: #070116;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    gap: 10px;
+    justify-content: center;
+    font-size: 2 rem;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 30px;
+
+}
+
+.footer-link-list>p {
+
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.footer-link-list {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    color: #FFFFFF;
+
+}
+
+
+.footer-icon,
+.footer-policy,
+.gamer-copyright {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-policy,
+.gamer-copyright {
+    color: #7a7a7a;
+}
+
+
+.gamer-copyright {
+    padding-bottom: 80px;
+}
+
+/* Footer End */
 
 
 
@@ -378,6 +445,44 @@
 
 
 
+    /* Footer start */
+
+    .footer-link-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0 50px 20px;
+        text-align: center;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 20px;
+        padding: 0 120px 20px;
+        font-size: 28px;
+        text-align:center;
+    }
+
+    .footer-policy {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        gap: 10px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    /* Footer End */
+
+
+
+
+
+
 }
 
 
@@ -475,5 +580,39 @@
     }
 
     /* Different Games Section End*/
+
+
+    /* Footer start */
+
+    .footer-link-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0 50px 20px;
+        text-align: center;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 20px;
+        padding: 0 200px 20px;
+        font-size: 35px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 100px;
+        gap: 10px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    /* Footer End */
 
 }
