@@ -141,7 +141,8 @@
     text-align: right;
 }
 
-.banner-gamer-title {
+.banner-gamer-title,
+.funny-videos-span {
     font-size: 2.5rem;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -174,6 +175,50 @@
 }
 
 /* Banner Gamer End */
+
+
+/* Online Games section Start */
+.online-games {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.online-games-title {
+    font-size: 2.5rem;
+}
+
+.online-games-description {
+    font-size: 1.05 rem;
+    margin-top: -20px;
+}
+
+
+.funny-video-section {
+    padding: 0 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.funny-videos>img {
+    width: 100%;
+}
+
+/* Online Games section End */
+
+
+
+/* Play Instant Section Start */
+
+
+
+
+/* Play Instant Section End */
+
+
+
+
 
 
 
@@ -235,6 +280,23 @@
         text-align: center;
     }
 
+
+    /* Online Game Start */
+
+    .online-games {
+        padding: 0 40px;
+    }
+
+    .funny-video-section {
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    /* Online Game End */
+
 }
 
 
@@ -292,6 +354,21 @@
         text-align: center;
     }
 
+
+ /* Online Game Start */
+
+ .online-games{
+    padding: 0 40px;
+}
+
+.funny-video-section{
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+}
+/* Online Game End */
 
 
 }
